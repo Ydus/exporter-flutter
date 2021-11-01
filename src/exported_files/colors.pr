@@ -12,9 +12,9 @@ class SDMColors {
   {[ if (colorToken.description && colorToken.description !== "") ]}
 {{ createDocumentationComment(colorToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = {[ inject "export_color_value" context colorToken.value /]}; 
+  final {{ fullTokenName }} = {[ inject "export_color_value" context colorToken.value /]}; 
   
   {[/]}
 {[/]}
-  SDMColors._();
+  SDMColors();
 }

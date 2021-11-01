@@ -12,7 +12,7 @@ class SDMShadows {
   {[ if (shadowToken.description && shadowToken.description !== "") ]}
 {{ createDocumentationComment(shadowToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = BoxShadow(
+  final {{ fullTokenName }} = BoxShadow(
     color: {[ inject "export_color_value" context shadowToken.value.color /]},
     offset: Offset({{ shadowToken.value.x.measure.toString() }}, {{ shadowToken.value.y.measure.toString() }}),
     blurRadius: {{shadowToken.value.radius.measure.toString()}},
@@ -21,5 +21,5 @@ class SDMShadows {
 
   {[/]}
 {[/]}
-  SDMShadows._();
+  SDMShadows();
 }

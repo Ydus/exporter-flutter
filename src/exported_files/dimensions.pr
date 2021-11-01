@@ -10,9 +10,9 @@ class SDMDimensions {
   {[ if (measureToken.description && measureToken.description !== "") ]}
 {{ createDocumentationComment(measureToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = {[ inject "export_measure_value" context measureToken.value /]};
+  final {{ fullTokenName }} = {[ inject "export_measure_value" context measureToken.value /]};
 
   {[/]}
 {[/]}
-  SDMDimensions._();
+  SDMDimensions();
 }

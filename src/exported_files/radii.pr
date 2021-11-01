@@ -12,9 +12,9 @@ class SDMRadii {
   {[ if (radiusToken.description && radiusToken.description !== "") ]}
 {{ createDocumentationComment(radiusToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = BorderRadius.all(Radius.circular({[ inject "export_measure_value" context radiusToken.value.radius /]}));
+  final {{ fullTokenName }} = BorderRadius.all(Radius.circular({[ inject "export_measure_value" context radiusToken.value.radius /]}));
 
   {[/]}
 {[/]}
-  SDMRadii._();
+  SDMRadii();
 }

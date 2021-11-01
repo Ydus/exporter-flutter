@@ -13,7 +13,7 @@ class SDMGradients {
 {{ createDocumentationComment(gradientToken.description, "  ") }}
   {[/]}
   {[ log gradientToken /]}
-  static const {{ fullTokenName }} = LinearGradient(
+  final {{ fullTokenName }} = LinearGradient(
     begin: {[ inject "export_point" context gradientToken.value.from /]},
     end: {[ inject "export_point" context gradientToken.value.to /]},
     stops: [
@@ -30,5 +30,5 @@ class SDMGradients {
 
   {[/]}
 {[/]}
-  SDMGradients._();
+  SDMGradients();
 }

@@ -12,12 +12,12 @@ class SDMBorders {
   {[ if (borderToken.description && borderToken.description !== "") ]}
 {{ createDocumentationComment(borderToken.description, "  ") }}
   {[/]}
-  static const {{ fullTokenName }} = Border.fromBorderSide(BorderSide(
+  final {{ fullTokenName }} = Border.fromBorderSide(BorderSide(
     color: {[ inject "export_color_value" context borderToken.value.color /]},
     width: {[ inject "export_measure_value" context borderToken.value.width /]},
   ));
 
   {[/]}
 {[/]}
-  SDMBorders._();
+  SDMBorders();
 }
