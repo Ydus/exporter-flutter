@@ -16,5 +16,5 @@ class SDMColors {
   
   {[/]}
 {[/]}
-  AppColors._();
+  SDMColors._();
 }

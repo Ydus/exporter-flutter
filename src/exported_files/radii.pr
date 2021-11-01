@@ -16,5 +16,5 @@ class SDMRadii {
 
   {[/]}
 {[/]}
-  AppRadii._();
+  SDMRadii._();
 }

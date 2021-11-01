@@ -19,5 +19,5 @@ class SDMBorders {
 
   {[/]}
 {[/]}
-  AppBorders._();
+  SDMBorders._();
 }

@@ -41,5 +41,5 @@ class SDMTextStyles {
 
   {[/]}
 {[/]}
-  AppTextStyles._();
+  SDMTextStyles._();
 }
