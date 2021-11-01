@@ -1,7 +1,7 @@
 {
-    "id": "io.supernova.flutter-styles",
-    "name": "Flutter",
-    "description": "Flutter token and style exporter",
+    "id": "io.supernova.flutter-styles-internal",
+    "name": "Flutter (internal)",
+    "description": "Flutter token and style exporter modified for internal use",
     "source_dir": "src",
     "version": "1.1",
     "tags": [
