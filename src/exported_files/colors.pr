@@ -13,8 +13,8 @@ class SDMColors {
   {[ if (colorToken.description && colorToken.description !== "") ]}
 {{ createDocumentationComment(colorToken.description, "  ") }}
   {[/]}
-  final {{ fullTokenName }} = const {[ inject "export_color_value" context colorToken.value /]}; 
-  
+  final {{ fullTokenName }} = const {[ inject "export_color_value" context colorToken.value /]};
+
   {[/]}
 {[/]}
 }
