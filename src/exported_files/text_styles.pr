@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppTextStyles {
+class SDMTextStyles {
 
 {[ const typographyTokensTree = ds.tokenGroupTreeByType("Typography") /]}
 {[ traverse typographyTokensTree property subgroups into typographyTokenGroup ]}

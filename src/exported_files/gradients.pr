@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppGradients {
+class SDMGradients {
 
 {[ const gradientTokensTree = ds.tokenGroupTreeByType("Gradient") /]}
 {[ traverse gradientTokensTree property subgroups into gradientTokenGroup ]}

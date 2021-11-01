@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppRadii {
+class SDMRadii {
 
 {[ const radiusTokensTree = ds.tokenGroupTreeByType("Radius") /]}
 {[ traverse radiusTokensTree property subgroups into radiusTokenGroup ]}

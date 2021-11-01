@@ -1,4 +1,4 @@
-class AppDimensions {
+class SDMDimensions {
 
 {[ const measureTokensTree = ds.tokenGroupTreeByType("Measure") /]}
 {[ traverse measureTokensTree property subgroups into measureTokenGroup ]}

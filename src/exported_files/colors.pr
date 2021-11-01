@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppColors {
+class SDMColors {
 
 {[ const colorTokensTree = ds.tokenGroupTreeByType("Color") /]}
 {[ traverse colorTokensTree property subgroups into colorTokenGroup ]}
