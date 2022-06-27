@@ -49,9 +49,7 @@ class SDMTextStyles {
     decoration: TextDecoration.{{ decoration }},
     letterSpacing: {{ letterSpacing.toString() }},
     height: {{ lineHeight.toString() }},
-    textStyle: const TextStyle(
-      leadingDistribution: TextLeadingDistribution.even,
-    ),
+    textStyle: const TextStyle(leadingDistribution: TextLeadingDistribution.even),
   );
 
   {[/]}
