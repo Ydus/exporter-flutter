@@ -15,10 +15,6 @@
         {
             "invoke": "text_styles.pr",
             "write_to": "text_styles.dart"
-        },
-        {
-            "invoke": "text_styles_with_height.pr",
-            "write_to": "text_styles_with_height.dart"
         }
     ]
 }
